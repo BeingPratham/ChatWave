@@ -38,7 +38,8 @@ if (process.env.NODE_ENV === "production") {
 const PORT = process.env.PORT;
 
 const server = app.listen(
-  PORT,
+  // PORT,
+  'https://chatwave-o2w1.onrender.com/',
   console.log(`Server running on PORT ${PORT}...`)
 );
 
