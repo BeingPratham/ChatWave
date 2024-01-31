@@ -74,7 +74,7 @@ function SideDrawer() {
         },
       };
 
-      const { data } = await axios.get(`http://localhost:3000/api/user?search=${search}`, config);
+      const { data } = await axios.get(`https://chatwave-o2w1.onrender.com/api/user?search=${search}`, config);
       console.log(data);
       setLoading(false);
       setSearchResult(data);

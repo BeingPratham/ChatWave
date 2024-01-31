@@ -22,7 +22,7 @@ const MyChats = ({ fetchAgain }) => {
         },
       };
 
-      const { data } = await axios.get("http://localhost:3000/api/chat", config);
+      const { data } = await axios.get("https://chatwave-o2w1.onrender.com/api/chat", config);
       setChats(data);
     } catch (error) {
       toast({
