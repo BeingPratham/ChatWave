@@ -1,0 +1,27 @@
+.file-upload {
+    position: relative;
+  }
+  
+  .custom-button {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    /* background-color: #007bff; */
+    font-weight: bolder;
+    background-color: green;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 4px;
+    text-align: center;
+
+    line-height: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+    /* flex: 1; */
+    border-radius: 50%;
+  }
+  
+  /* Style the file input to be hidden */
+  /* input[type="file"] {
+    display: none;
+  } */
