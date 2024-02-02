@@ -98,6 +98,8 @@ PS:- You need to change your axios api to:-  "http://localhost:3000/" to run it 
 
 ![receivevideo](https://github.com/BeingPratham/ChatWave/assets/89316929/f294211d-e1e5-46f1-8268-6baf06eeb447)
 <hr>
+PS:- If you find Not Found in any screen its because you are going in not valid route so the app is still in beta so i will fix that issue too.
+<hr>
 
 <h1>Thank You</h1>
 
