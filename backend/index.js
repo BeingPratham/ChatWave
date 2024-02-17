@@ -39,7 +39,7 @@ const PORT = process.env.PORT;
 
 const server = app.listen(
   PORT,
-  console.log(`Server running on PORT ${PORT}...`)
+    console.log(`Server running on PORT ${PORT}...`)
 );
 
 const io = require("socket.io")(server, {
